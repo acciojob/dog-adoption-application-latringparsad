@@ -8,27 +8,28 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<table border="1">
+	<table border="2">
 		<th>
 		<form method="get">
-			<lable for="name">Name : </lable>
+			<label for="name">Name : </label>
 			<input id="name" type="text" placeholder="Name">
 			<br>
 			
-			<lable for="phone">Phone No : </lable>
+			<label for="phone">Phone No : </label>
 			<input id="phone" type="text" placeholder="Phone Number">
 			<br>
 		
-			<lable for="address">Address : </lable>
+			<label for="address">Address : </label>
 			<input id="address" type="text" placeholder="Address">
 			<br>
 			
-			<lable >Have you ever lived with a Dog before ?</lable>
+			<label>Have you ever lived with a Dog before ?</label>
 			<br>
-			<input id="checkbox" name="checkbox1" type="checkbox" value="Have you ever lived with a Dog before ?">Yes 
+			<input name="checkbox1" type="checkbox" value="Have you ever lived with a Dog before ?">Yes 
 			<br>
-			<input name="checkbox1" type="checkbox" >No
+			<input name="checkbox1" value="Have you ever lived with a Dog before ?" type="checkbox" >No
 			<br>
+			
 			<input id="multiSelect" type="select">
 			<select  id="multiSelect" type="select" multiple>
 				<option>Kutta puri</option>
@@ -38,7 +39,7 @@
 			</select>
 			<br>
 			
-			<input id="submit" type="submit" value="Submit">
+			<button id=submit type="submit" value="Submit" >Submit</button>
 			<input id="reset" type="reset">
 			
 		</form>
